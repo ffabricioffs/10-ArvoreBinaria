@@ -152,6 +152,13 @@ int elementosArvore(NO* no)
 
 void exibirElementosArvore(NO* no)
 {
+
+	if (raiz == NULL) {
+		cout << "Arvore vazia. \n";
+		return;
+	}
+
+
 	if (no == NULL) {
 		return;
 	}
